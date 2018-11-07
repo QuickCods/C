@@ -6,7 +6,7 @@ int main(void){
 	char ch;
 
 	while((ch = getchar()) != '\n'){
-		if(isalpha(ch))
+		if(isalpha(ch))            //(ch >= 'a' && ch <= 'z') || (ch >= 'A' && ch <= 'Z')
 			count++;
 	}
 	printf("A frase contém %d caracteres\n", count);
