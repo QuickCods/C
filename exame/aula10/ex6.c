@@ -9,7 +9,7 @@ vec[i] = 0;
 }
 */
 
-void store_zeros(int vec[]){
+void store_zeros(int *vec){
 	while(*vec != '\0'){
 		*vec = 0;
 		*vec++;
