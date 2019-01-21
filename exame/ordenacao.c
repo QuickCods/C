@@ -82,3 +82,15 @@ void bubble_sort(int vec[], int n){
 		}
 	}
 }
+
+//main para testar
+
+int main(void){
+	int c[] = {22,90,45,33,10};
+
+	bubble_sort(c, 5);		//algoritmo a usar
+
+	for(int i = 0; i < 5; i++)
+		printf("%d\t", c[i]);
+	printf("\n");
+}
